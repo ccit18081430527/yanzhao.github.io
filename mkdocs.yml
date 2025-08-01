@@ -1,0 +1,30 @@
+site_name: BK7258软件规格书
+site_url: https://github.com/ccit18081430527/ccit18081430527.github.io/sw_spec
+site_author: 缪梦溪
+
+theme:
+  name: material
+  feature:
+    - navigtion.tabs
+    - navigtion.top
+    - content.code.copy
+  palette:
+    primary: teal
+    accent: deep orange
+
+nav:
+  - 首页: index.md
+  - 引言: sections/01-引言.md
+  - 功能需求: sections/02-功能需求.md
+  - 系统设计: sections/03-系统设计.md
+  - 下载PDF: assets/spec.pdf
+
+plugins:
+  - search
+  - plantuml:
+      server: 'http://www.plantuml.com/plantuml'
+  - markdownextradata
+
+extra_css:
+  - css/custom.css
+
