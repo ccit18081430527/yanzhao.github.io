@@ -19,11 +19,11 @@ nav:
   - 系统设计: sections/03-系统设计.md
   - 下载PDF: assets/spec.pdf
 
-plugins:
-  - search
-  - plantuml:
-      server: 'http://www.plantuml.com/plantuml'
-  - markdownextradata
+# plugins:
+#   - search
+#   - plantuml:
+#       server: 'http://www.plantuml.com/plantuml'
+#   - markdownextradata
 
 extra_css:
   - css/custom.css
