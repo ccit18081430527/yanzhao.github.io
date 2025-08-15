@@ -54,16 +54,18 @@ theme:
 nav:  
   - 首页: index.md
   - 产品介绍: #sections/产品介绍/产品介绍目录.md
-      - 快速入门: sections/产品介绍/JZW7258_IDK使用介绍/01-01IDK快速入门.md
-      - 成品展示: sections/产品介绍/成品展示.md
+      - 快速入门: sections/产品介绍/01-01IDK快速入门.md
+      - 成品展示: sections/产品介绍/01-02成品展示.md
       # - JZW7258_AVDK使用说明: sections/产品介绍/JZW7258_AVDK使用介绍/02功能需求.md
   - 系统设计: #sections/03-系统设计.md
     - 软件架构与分层: sections/系统设计/02-01软件架构与分层.md
     - 硬件接口开发: sections/系统设计/02-02硬件接口开发.md
     - 屏幕接口开发: sections/系统设计/02-03屏幕接口开发.md
     - 应用开发: sections/系统设计/02-04应用开发.md
-  - 下载PDF: 
-    - assets/spec.pdf
+  - 相关资料: 
+    - API: sections/相关资料/03-01API说明.md
+    - PDF下载: sections/相关资料/03-02PDF下载.md
+    # - assets/spec.pdf
 
 plugins:
   - search
