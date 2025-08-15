@@ -2,34 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://yanzhao.github.io/sw-spec/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D%E7%9B%AE%E5%BD%95/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/JZW7258_AVDK%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/02-%E5%8A%9F%E8%83%BD%E9%9C%80%E6%B1%82/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/JZW7258_IDK%E4%BD%BF%E7%94%A8%E4%BB%8B%E7%BB%8D/01-01IDK%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-01%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%88%86%E5%B1%82/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://yanzhao.github.io/sw-spec/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/03-%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <loc>https://yanzhao.github.io/sw-spec/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-02%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://yanzhao.github.io/sw-spec/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-03%E5%B1%8F%E5%B9%95%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://yanzhao.github.io/sw-spec/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-04%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/</loc>
+         <lastmod>2025-08-15</lastmod>
     </url>
     <url>
          <loc>https://yanzhao.github.io/sw-spec/sections/%E9%A6%96%E9%A1%B5/</loc>
-         <lastmod>2025-08-14</lastmod>
+         <lastmod>2025-08-15</lastmod>
     </url>
 </urlset>
