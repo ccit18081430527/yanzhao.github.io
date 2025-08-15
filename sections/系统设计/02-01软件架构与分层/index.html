@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="技术文档团队" /><link rel="canonical" href="https://github.com/cit18081430527/yanzhao.github.io/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-01%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%88%86%E5%B1%82/" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>软件架构与分层 - JZW7258软件规格书</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "\u8f6f\u4ef6\u67b6\u6784\u4e0e\u5206\u5c42";
+        var mkdocs_page_input_path = "sections\\\u7cfb\u7edf\u8bbe\u8ba1\\02-01\u8f6f\u4ef6\u67b6\u6784\u4e0e\u5206\u5c42.md";
+        var mkdocs_page_url = "/cit18081430527/yanzhao.github.io/sections/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/02-01%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%88%86%E5%B1%82/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/django.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> JZW7258软件规格书
+        </a>
+        <div class="version">
+          1.0
+        </div><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">首页</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">产品介绍</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/01-01IDK%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/">快速入门</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/01-02%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA/">成品展示</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">系统设计</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">软件架构与分层</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02-02%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/">硬件接口开发</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02-03%E5%B1%8F%E5%B9%95%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/">屏幕接口开发</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../02-04%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/">应用开发</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">相关资料</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/03-01API%E8%AF%B4%E6%98%8E/">API</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/03-02PDF%E4%B8%8B%E8%BD%BD/">PDF下载</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">JZW7258软件规格书</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">系统设计</li>
+      <li class="breadcrumb-item active">软件架构与分层</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="_1">概述：</h2>
+<p>IDK工程分为中间件层(Middleware)，组件层(Components)，应用层(projets目录下)。其中，中间件层和组件层共同组成API接口函数，用户逻辑开发皆在应用层完成，调用API即可，无需过多关注底层实现逻辑。</p>
+<p>组件层作为连接中间层和应用层的重要环节，基于FreeRtos系统为用户提供软件设计平台，已为每一个模块封装好线程安全。</p>
+<p>中间层抽象了硬件及上层应用，方便用户在不同方案中切换，譬如SOC选择(工程默认BK7258)、各个外设选择。</p>
+<p>应用层作为用户直接使用的部分，包含了如何编译程序、工程配置等功能，从projects目录下的CMakeList文件作为构建方案入口。</p>
+<h2 id="_2">构建与配置：</h2>
+<h3 id="_3">概念：</h3>
+<ul>
+<li>projects下的每个目录都是一个可编译工程，包含了配置文件、主文件。</li>
+<li>配置文件为构建目录下生成的sdkconfig.h文件</li>
+<li>用户开发中，需要引用组件层的API或某个文件时，需要在CMakeList文件中包含对应文件名</li>
+</ul>
+<h3 id="_4">新建工程：</h3>
+<p>具体可参考SDK中projects目录下的文件。IDK中适合编译模块化设备的应用，如外设、WIFI等一切不参与多媒体(LCD、Camera)的应用。
+如若涉及LVGL的工程可参考AVDK目录下的projects例程。</p>
+<p>JZW7258的SDK下又有两个SDK互联：IDK和AVDK。用户的应用逻辑实现在AVDK目录下的工程，AVDK可调取IDK的应用，反之不可实现。IDK下结构包含编译工具链、工具配置、外设驱动配置、及以上的应用案例。而AVDK下应用偏向于多媒体(LCD、摄像头、音频)，故用户涉及屏幕UI显示的应用，应在AVDK下实现，包含界面数据通信，可向下兼容IDK的串口应用。此外，组件层可配置、新添LCD和TP参数，应用层工程里选择对应name及分辨率即可。</p>
+<h3 id="freertos">FreeRTOS</h3>
+<h3 id="amp">多核处理AMP架构</h3>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../../%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/01-02%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA/" class="btn btn-neutral float-left" title="成品展示"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../02-02%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/" class="btn btn-neutral float-right" title="硬件接口开发">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../../%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/01-02%E6%88%90%E5%93%81%E5%B1%95%E7%A4%BA/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../02-02%E7%A1%AC%E4%BB%B6%E6%8E%A5%E5%8F%A3%E5%BC%80%E5%8F%91/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
