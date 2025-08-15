@@ -1,16 +1,16 @@
 site_name: JZW7258软件规格书
-site_url: https://github.com/cit18081430527/yanzhao.github.io/sw_spec
+site_url: https://github.com/cit18081430527/yanzhao.github.io 
 site_author: 技术文档团队
 site_dir: docs-site
 theme:
   name: readthedocs
   #readthedocs # material #rtd-dropdown #ivory #gitbook
   # custom_dir: overrides
-  collapse_by_default: false
-  highlightjs: true
-  hljs_languages: 
-    - yaml
-    - django
+  # collapse_by_default: false
+  # highlightjs: true
+  # hljs_languages: 
+  #   - yaml
+  #   - django
   # icon:
   #   logo: fontawesome/brands/telegram
   #   previous: fontawesome/solid/angle-left
